@@ -2,15 +2,17 @@ import './styles.css';
 
 const Navbar = () => {
   return (
-    <nav className="bg-primary">
-      <div>
-        <a href="link">
+    <nav className="navbar navbar-expand-md bg-primary main-nav">
+      <div className="container-fluid">
+        <a href="link" className="nav-logo-text">
           <h4>Carros Top</h4>
         </a>
-        <div>
-          <ul>
+        <div className="collapse navbar-collapse">
+          <ul className="navbar-nav offset-md-2 main-menu">
             <li>
-              <a href="link">Home</a>
+              <a href="link" className="active">
+                Home
+              </a>
             </li>
             <li>
               <a href="link">Catálogo</a>
