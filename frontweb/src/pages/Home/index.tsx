@@ -1,6 +1,8 @@
 import Navbar from 'components/Navbar';
 import { ReactComponent as MainImage } from 'assets/images/main-image.svg';
 
+import './styles.css';
+
 const Home = () => {
   return (
     <>
@@ -17,7 +19,7 @@ const Home = () => {
                 <MainImage />
             </div>
         </div>
-        <div>
+        <div className='button-card'>
 
         </div>
       </div>
