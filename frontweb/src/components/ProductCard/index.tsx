@@ -15,7 +15,9 @@ const ProductCard = () => {
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate,
           nisi
         </p>
-        <ButtonIcon />
+        <div className='button-container'>
+          <ButtonIcon />
+        </div>
       </div>
     </div>
   );

@@ -8,20 +8,26 @@
 }
 
 .card-top-container img {
-    width: 213.5px;
-    height: 165px;
+  width: 213.5px;
+  height: 165px;
 }
 
 .card-bottom-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
   padding: 8px 19px 15px 19px;
 }
 
 .card-bottom-container h6 {
   font-size: 18px;
   text-align: center;
+  margin-bottom: 14px;
 }
 
 .card-bottom-container p {
   color: #585858;
   font-size: 14px;
+  margin-bottom: 38px;
+  text-align: left;
 }
