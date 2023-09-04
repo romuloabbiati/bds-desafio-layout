@@ -20,7 +20,7 @@ const Home = () => {
       </div>
       <div className="base-card button-card">
         <Link to="/products">
-          <ButtonIcon />
+          <button className='btn btn-icon'>Ver Catálogo</button>
         </Link>
         <p>Comece agora a navegar</p>
       </div>

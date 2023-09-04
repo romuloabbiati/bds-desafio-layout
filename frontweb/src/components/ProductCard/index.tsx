@@ -1,7 +1,6 @@
 import './styles.css';
 
 import ProductImg from 'assets/images/product.png';
-import ButtonIcon from 'components/ButtonIcon';
 
 const ProductCard = () => {
   return (
@@ -10,13 +9,13 @@ const ProductCard = () => {
         <img src={ProductImg} alt="Nome do produto" />
       </div>
       <div className="card-bottom-container">
-        <h6>Audi Supra TT</h6>
+        <h5>Audi Supra TT</h5>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate,
           nisi
         </p>
         <div className='button-container'>
-          <ButtonIcon />
+            <button className='btn btn-icon'>Comprar</button>
         </div>
       </div>
     </div>
